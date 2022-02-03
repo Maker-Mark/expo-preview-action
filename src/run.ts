@@ -60,6 +60,8 @@ export async function run(): Promise<void> {
 
 	setOutput('EXPO_MANIFEST_URL', manifestURL);
 	setOutput('EXPO_PROJECT_URL', projectPageURL);
+	setOutput('EXPO_PROJECT_URL_TEST', 'test');
+
 	setOutput('EXPO_QR_CODE_URL', QRCodeURL);
 	setOutput('EXPO_NEW_BUILD_IS_REQUIRED', needToRebuildDevClient);
 	setOutput(
